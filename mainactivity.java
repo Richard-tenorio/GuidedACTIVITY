@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (requestCode == 1 && resultCode == RESULT_OK) {
             int selectedColor = data.getIntExtra("selectedColor", Color.WHITE);
-            layout.setBackgroundColor(selectedColor); // Apply color to root layout
+            layout.setBackgroundColor(selectedColor);
         }
     }
 
