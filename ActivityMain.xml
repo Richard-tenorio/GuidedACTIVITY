@@ -88,7 +88,7 @@
         android:layout_marginTop="16dp"
         android:text="Color Change"
         android:backgroundTint="#CCCCCC"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintTop_toBottomOf="@+id/btnClickGE1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
